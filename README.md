@@ -3,8 +3,10 @@ This repo contains a minimal Pixi workspace for experimenting with the `lerobot`
 * URDF support
 * transform support
 
-Assuming that you have [installed Pixi](https://pixi.prefix.dev/latest/installation/) already, initialize the workspace:
+Assuming that you have [installed Pixi](https://pixi.prefix.dev/latest/installation/) already, initialize the submodule repos and the Pixi workspace:
 ```
+git submodule init && git submodule update
+
 pixi shell
 ```
 This should™ resolve all the dependencies and install everything that is needed.
