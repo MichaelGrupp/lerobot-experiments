@@ -1,4 +1,4 @@
-This repo contains a minimal Pixi workspace for experimenting with the `lerobot` and the `SO-ARM101` robot model.
+This repo contains a minimal Pixi workspace for experimenting with the `lerobot` repo and the `SO-ARM101` robot model.
 `lerobot` is used from a [forked](https://github.com/MichaelGrupp/lerobot), editable source with some modifications for the [Rerun](https://rerun.io/) visualization like:
 * URDF support
 * transform support
