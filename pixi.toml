@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Michael Grupp <michael@rerun.io>"]
+channels = ["conda-forge"]
+name = "lerobot-experiments"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+license = "Apache-2.0"
+
+[tasks]
+
+# Conda / workspace dependencies.
+[dependencies]
+ffmpeg = ">=8.0.1,<9"
+python = ">=3.10.0,<3.11"  # whyyyyyy always old Pythonnnnn | TODO: check why newer doesn't work with lerobot
+ipython = ">=8.37.0,<9"
+#av = "*"
+
+[pypi-dependencies]
+# feetech SDK for SO101 servo motors.
+lerobot = { path = "lerobot", editable = true, extras = ["feetech"] }
