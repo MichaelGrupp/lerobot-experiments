@@ -28,3 +28,8 @@ If calibration is needed, follow the instructions shown in the terminal (see als
 **NOTE**: if you've used another version of `lerobot` before (e.g. via pip), the stored calibration can be incompatible and lead to a buggy process. Force a recalibration by deleting previous calibrations: `rm -r ~/.cache/huggingface/lerobot/calibration`.
 
 See the [LeRobot docs](https://huggingface.co/docs/lerobot/il_robots) for more tutorials.
+
+https://github.com/user-attachments/assets/e897cf47-d26a-49b2-a95e-3d73d2070ef5
+
+
+
