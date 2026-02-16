@@ -29,6 +29,8 @@ If calibration is needed, follow the instructions shown in the terminal (see als
 
 See the [LeRobot docs](https://huggingface.co/docs/lerobot/il_robots) for more tutorials.
 
+<img width="500" alt="rerobot!" src="https://github.com/user-attachments/assets/38392cf6-c3d6-4bfb-a240-9ad32d53e853" />
+
 https://github.com/user-attachments/assets/e897cf47-d26a-49b2-a95e-3d73d2070ef5
 
 
